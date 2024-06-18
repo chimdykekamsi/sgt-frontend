@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link"
-import logo from '@/public/heroimg.png';
+import Logo from '@/public/heroimg.png';
 import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="w-11/12 mx-auto py-8 flex flex-col md:flex-row gap-6 justify-between items-center">
                 <div className="flex flex-col items-center md:items-start">
                     <Link href={'/'} className="">
-                        <Image src={logo} className="" height={100} width={100} alt="" />
+                        <Image src={Logo} className="" height={100} width={100} alt="" />
                     </Link>
                     <div className="mt-12 flex gap-10">
                         <Link href={'#'} className="">Contestants</Link>
