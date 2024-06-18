@@ -9,7 +9,7 @@ export default function ContestantsSection() {
             <div className="w-11/12 mx-auto">
                 <div className="w-full flex justify-between mt-8">
                     <div className="md:hidden w-full text-center flex items-center justify-center">
-                        <h1 className="font-bold text-lg">Contestants</h1>
+                        <h1 className="font-bold text-xl">Contestants</h1>
                     </div>
                     <div className="hidden md:flex flex-col text-md w-3/12">
                         <div className="w-full">

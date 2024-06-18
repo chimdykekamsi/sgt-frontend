@@ -1,14 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import NavLogo from '@/public/heroimg.png'
+import { HiMenuAlt1 } from "react-icons/hi";
+import { FiSearch } from "react-icons/fi";
 
 export default function Navbar() {
     return (
         <div className="w-full bg-black text-white absolute top-0">
-            <div className="w-11/12 mx-auto flex justify-between items-center py-3">
-                <Link href={'/'} className="">
+            <div className="w-11/12 mx-auto flex justify-between items-center py-6 md:py-3">
+                <Link href={'/'} className="hidden md:block">
                     <Image src={NavLogo} className="" width={100} height={100} alt="" />
                 </Link>
+                <button><HiMenuAlt1 className="h-6 w-6" /></button>
+                <button><FiSearch className="h-6 w-6" /></button>
                 <div className="hidden w-6/12 md:flex justify-between">
                     <div className="flex gap-20">
                         <Link href={'/contestants'} className="">Contestants</Link>
