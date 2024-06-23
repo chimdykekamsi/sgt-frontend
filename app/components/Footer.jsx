@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="w-11/12 mx-auto py-8 flex flex-col md:flex-row gap-6 justify-between items-center">
                 <div className="flex flex-col items-center md:items-start">
                     <Link href={'/'} className="">
-                        <Image src={NavLogo} className="" alt="" />
+                        <Image src='/heroimg.png' height={100} width={100} className="" alt="" />
                     </Link>
                     <div className="mt-12 flex gap-10">
                         <Link href={'#'} className="">Contestants</Link>
